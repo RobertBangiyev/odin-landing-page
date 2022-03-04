@@ -109,7 +109,7 @@ button {
     margin: 36px 350px;
 }
 
-.footer {
+.action {
     display: flex;
     justify-content: space-between;
     margin: 50px 300px;
@@ -119,19 +119,28 @@ button {
     border-radius: 10px;
 }
 
-.footer h1 {
+.action h1 {
     color: white;
     margin: 5px 0;
     font-size: 25px;
 }
 
-.footer p {
+.action p {
     color: white;
     margin: 5px 0;
 }
 
-.footer button {
+.action button {
     border-color: white;
     border: 1px;
     border-style: solid;
+}
+
+.footer {
+    background-color: #1f2937;
+}
+
+.footer p {
+    color: white;
+    text-align: center;
 }
